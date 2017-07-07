@@ -14,7 +14,6 @@
 		B724C16A1F0B03C000517481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B724C1691F0B03C000517481 /* Assets.xcassets */; };
 		B724C16D1F0B03C000517481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B724C16B1F0B03C000517481 /* LaunchScreen.storyboard */; };
 		B724C1751F0B043100517481 /* ClarifaiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724C1741F0B043100517481 /* ClarifaiKey.swift */; };
-		B724C1771F0EAC4100517481 /* ClarifaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724C1761F0EAC4100517481 /* ClarifaiApp.swift */; };
 		B724C17B1F0EAEAE00517481 /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724C17A1F0EAEAE00517481 /* PizzaViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		B724C16C1F0B03C000517481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B724C16E1F0B03C000517481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B724C1741F0B043100517481 /* ClarifaiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClarifaiKey.swift; sourceTree = "<group>"; };
-		B724C1761F0EAC4100517481 /* ClarifaiApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClarifaiApp.swift; sourceTree = "<group>"; };
 		B724C17A1F0EAEAE00517481 /* PizzaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
 		D786ABA56C08ABE9BDDC1D15 /* Pods-SeeFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeFood/Pods-SeeFood.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +85,6 @@
 				B724C1741F0B043100517481 /* ClarifaiKey.swift */,
 				B724C1621F0B03C000517481 /* AppDelegate.swift */,
 				B724C1641F0B03C000517481 /* ViewController.swift */,
-				B724C1761F0EAC4100517481 /* ClarifaiApp.swift */,
 				B724C1661F0B03C000517481 /* Main.storyboard */,
 				B724C17A1F0EAEAE00517481 /* PizzaViewController.swift */,
 				B724C1691F0B03C000517481 /* Assets.xcassets */,
@@ -222,7 +219,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B724C17B1F0EAEAE00517481 /* PizzaViewController.swift in Sources */,
-				B724C1771F0EAC4100517481 /* ClarifaiApp.swift in Sources */,
 				B724C1651F0B03C000517481 /* ViewController.swift in Sources */,
 				B724C1631F0B03C000517481 /* AppDelegate.swift in Sources */,
 				B724C1751F0B043100517481 /* ClarifaiKey.swift in Sources */,

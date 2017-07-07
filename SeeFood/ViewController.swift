@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Alamofire
 import Clarifai
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {

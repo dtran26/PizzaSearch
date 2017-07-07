@@ -16,14 +16,17 @@ PODS:
     - AFNetworking/NSURLSession
   - Clarifai (2.3.2):
     - AFNetworking (~> 3.1)
+  - EZLoadingActivity (1.01)
 
 DEPENDENCIES:
   - Clarifai
+  - EZLoadingActivity
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Clarifai: 522c9c403bd13914c120cdb0bc7f342ec279eb74
+  EZLoadingActivity: edd7e387e5197b116ce2cccb3fd747ababc2a510
 
-PODFILE CHECKSUM: 06ff5e5c3b74906d0cdc828238bd11fa62564355
+PODFILE CHECKSUM: df8d8ecbbc9f37bb37edaad23d0f420cbfbc1821
 
 COCOAPODS: 1.2.1

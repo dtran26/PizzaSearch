@@ -6,5 +6,7 @@ target 'SeeFood' do
   use_frameworks!
 
   pod 'Clarifai'
+  pod 'EZLoadingActivity'
+
 
 end

@@ -8,18 +8,25 @@
 
 import UIKit
 import Clarifai
+import EZLoadingActivity
 
 class PizzaViewController: UIViewController {
 
     @IBOutlet weak var pizzaImage: UIImageView!
+    @IBOutlet weak var result: UILabel!
     
     var pizza : UIImage?
     var app : ClarifaiApp?
+    var isPizza : Bool = false
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         app = ClarifaiApp(apiKey: key)
+        pizzaImage.image = pizza
+        EZLoadingActivity.show("Loading...", disableUI: true)
         recognizeImage(image: pizza!)
+        print("123\(isPizza)")
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,7 +54,21 @@ class PizzaViewController: UIViewController {
                         for concept in clarifaiOutput.concepts {
                             tags.append(concept.conceptName)
                         }
-                        print(tags)
+                        for index in 0...3{
+                            if tags[index] == "pizza"{
+                                self.isPizza = true
+                                
+                            }
+                        }
+                        print(self.isPizza)
+                        if self.isPizza == true{
+                            self.result.text = "THIS IS PIZZA"
+                            EZLoadingActivity.hide(true, animated: true)
+                        }
+                        else{
+                            self.result.text = "THIS IS NOT PIZZA"
+                            EZLoadingActivity.hide(true, animated: true)
+                        }
                     }
                 })
                 
